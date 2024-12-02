@@ -9,9 +9,14 @@
   </h3>
   <br>
   <p>
+    pips install figlet / sudo apt install figlet
+    <br>
+    <br>
     git clone https://github.com/shaheen101sec/GoldMiner
     <br>
+    <br>
     cd GoldMiner
+    <br>
     <br>
     bash miner.sh
   </p>
