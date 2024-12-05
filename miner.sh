@@ -36,7 +36,7 @@ fi
 echo "<html><body>" > "$output_file"
 
 # Keywords to search for sensitive data
-keywords=("api_key" "API_KEY" "APIKEY" "ApiKey" "admin" "secret" "Secret" "SECRET" "firebase" "FireBase" "FIREBASE" "base" "datadog" 'DataDog" "DATADOG" "UUID" "uuid" "username" "email" "ADMIN" "DB" "db" "DataBase" "database" "Mysql" "mysql" "MySql" "MYSQL" "SQL" "sql" "Sql" "apikey" "secret" "password" "token" "auth" "access" "key" "client_secret")
+keywords=("api_key" "API_KEY" "APIKEY" "ApiKey" "admin" "secret" "Secret" "SECRET" "firebase" "FireBase" "FIREBASE" "base" "datadog" "DataDog" "DATADOG" "UUID" "uuid" "username" "email" "ADMIN" "DB" "db" "DataBase" "database" "Mysql" "mysql" "MySql" "MYSQL" "SQL" "sql" "Sql" "apikey" "secret" "password" "token" "auth" "access" "key" "client_secret")
 
 # Regex for API links (e.g., /api/, /v1/, /cdn-cgi/, etc.)
 api_regex="(/[a-zA-Z0-9_\-]+)*(/api(/[a-zA-Z0-9_\-]*)*|/v[0-9]+(/[a-zA-Z0-9_\-]*)*|/cdn-cgi(/[a-zA-Z0-9_\-]*)*|/graphql(/[a-zA-Z0-9_\-]*)*|/rest(/[a-zA-Z0-9_\-]*)*|/services(/[a-zA-Z0-9_\-]*)*|/webservices(/[a-zA-Z0-9_\-]*)*|/soap(/[a-zA-Z0-9_\-]*)*)"
