@@ -28,7 +28,7 @@ https://notfound.com
 
 Command:
 ```bash
-bash gold_miner.sh -f urls.txt -o output.html
+bash miner.sh -f urls.txt -o output.html
 ```
 
 Output (`output.html` and console):
@@ -46,7 +46,7 @@ Output (`output.html` and console):
 2. Download the `gold_miner.sh` script.
 3. Make it executable:
    ```bash
-   chmod +x gold_miner.sh
+   chmod +x miner.sh
    ```
 
 ## Customization
