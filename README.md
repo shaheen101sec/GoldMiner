@@ -58,8 +58,8 @@ Output (`output.html` and console):
 ## Output Format
 The script outputs results in the following format:
 - **URLs:** `[+] url : <URL> : <Status_Code>`
-- **Matches:** `[+] <MATCH>`
-- **API Links:** `[+] api_link: <API_URL>`
+- **Matches:** `[+] Found possible sensitive data : <MATCH>`
+- **API Links:** `[+] Found api link :  <API_URL>`
 
 ### Example Output
 Console and HTML file:
