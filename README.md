@@ -44,9 +44,11 @@ Output (`output.html` and console):
    sudo apt-get install curl figlet
    ```
 2. Download the `GoldMiner` repo.
-3.    ```bash
+
+3.```bash
    cd GoldMiner
    ```
+
 4. Make it executable:
    ```bash
    chmod +x miner.sh
