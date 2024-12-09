@@ -40,16 +40,18 @@ Output (`output.html` and console):
 
 ## Installation
 1. Ensure you have `curl` and `figlet` installed on your system:
+
    ```bash
    sudo apt-get install curl figlet
    ```
 2. Download the `GoldMiner` repo.
 
-3.```bash
+3. ```bash
    cd GoldMiner
    ```
 
 4. Make it executable:
+
    ```bash
    chmod +x miner.sh
    ```
